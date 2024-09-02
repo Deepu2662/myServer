@@ -1,0 +1,5 @@
+# Use the latest version of Alpine Linux as the base image
+FROM alpine:latest
+
+# Run an infinite loop to keep the container alive
+CMD ["sh", "-c", "while :; do sleep 1; done"]
